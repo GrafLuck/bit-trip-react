@@ -5,6 +5,8 @@ export type TDestination = {
   pictures: TPicture[];
 }
 
+export type TDestinations = TDestination[];
+
 type TPicture = {
   src: string;
   description: string;
